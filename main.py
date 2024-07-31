@@ -48,6 +48,7 @@ symbol_var = IntVar()
 
 window.geometry("600x400")
 window.config(background="#E0F7FA")
+window.title("Password Generator")
 
 password_display_label = Label(window, text="                              ", font=("arial", 30, "bold"), fg="#004D40",
                                bg="#00796B", relief=SUNKEN, bd=10)
